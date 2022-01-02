@@ -11,9 +11,9 @@ const Header = () => {
             <div className="flex justify-between items-center h-16 ">
                 <h1 className="pl-6 hover:cursor-pointer">Thomas Stone</h1>
                 <div className="flex items-center">
-                    <span onClick={onClick} className="mx-4 p-2 navBtn hover:cursor-pointer hover:border-white">About</span>
-                    <span className="mx-4 p-2 navBtn hover:cursor-pointer hover:border-white">Projects</span>
-                    <span className="mx-4 p-2 navBtn hover:cursor-pointer hover:border-white">Contact</span>
+                    <span onClick={onClick} className="mx-4 p-2 navBtn hover:cursor-pointer hover:border-white hover:text-white">About</span>
+                    <span className="mx-4 p-2 navBtn hover:cursor-pointer hover:border-white hover:text-white">Projects</span>
+                    <span className="mx-4 p-2 navBtn hover:cursor-pointer hover:border-white hover:text-white">Contact</span>
                 </div>
             </div>
         </div>
